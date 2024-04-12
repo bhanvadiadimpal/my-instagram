@@ -18,33 +18,33 @@
 
 ## Getting Started
 
-1. Open chrome and go to extensions and open `Allow CORS` and click `twice` on the yellow color highlighted area.
-
-![](Screenshot/Allow_CORS.png)
-
-2. start node server first in new terminal using below command from `Node` folder:
+1. start node server first in new terminal using below command from `Node` folder:
 
     ```shell
     node server.js
     ```
 
-3. start app in new terminal with port 3000 using below command from `my-app` folder:
+2. start app in new terminal with port 3000 using below command from `my-app` folder:
 
     ```shell
     npm run dev:port1
     ```
 
-4. start app in new terminal with port 3001 using below command from `my-app` folder:
+3. start app in new terminal with port 3001 using below command from `my-app` folder:
 
     ```shell
     npm run dev:port2
     ```
 
-5. Open blow links in same chrome browser where `Allow CORS` is disabled and enabled again in step 1
+4. Open blow links in chrome browser
 
     [http://localhost:3000](http://localhost:3000)
 
     [http://localhost:3001](http://localhost:3001)
+
+5. Go to extensions in chrome and open `Allow CORS` and click `twice` on the yellow color highlighted area to disbale and enable the Allow CORS.
+
+![](Screenshot/Allow_CORS.png)
 
 6. It will be veisible as per below:
 
