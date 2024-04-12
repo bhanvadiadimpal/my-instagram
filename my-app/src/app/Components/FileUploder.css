@@ -1,0 +1,36 @@
+.fileupload {
+    height: 100vh;
+    padding-top: 5rem;
+    text-align: center;
+}
+.dropzone {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: blue;
+    text-align: center;
+}
+
+textarea {
+  width: 40%;
+  height: 4rem;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  padding: 5px 10px;
+}
+
+button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

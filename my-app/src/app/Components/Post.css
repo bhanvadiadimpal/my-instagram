@@ -1,0 +1,34 @@
+@media only screen and (max-width: 600px) {
+
+    .post {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .p-with {
+        display: flex;
+    }
+
+    .p-withs {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .f-color {
+        color: blue;
+    }
+
+    input[type=text] {
+        border: none;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        /* Align items vertically in the center */
+    }
+
+    .like {
+        margin-right: 20px;
+    }
+}
